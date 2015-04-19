@@ -6,7 +6,6 @@ var b1;
 var b2;
 var d = 0;
 var count;
-var r = 75;
 var p = [];
 var c;
 
