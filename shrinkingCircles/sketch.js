@@ -1,4 +1,4 @@
-/* 
+/*
 Draw with the mouse on the screen, click the 'Animate!' button and watch circles emerging from the depth.
 */
 
@@ -32,7 +32,6 @@ function draw() {
         if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
             if (mouseIsPressed) {
                 textOn = false;
-                c = color(255, random(255), random(255));
                 append(p, new Particle(mouseX, mouseY, random(25, 100), random(255)));
             }
         }
