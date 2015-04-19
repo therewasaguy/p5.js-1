@@ -1,5 +1,5 @@
 /* 
-Draw with the mouse on the screen, click the 'animate' button and watch circles emerging from the depth.
+Draw with the mouse on the screen, click the 'Animate!' button and watch circles emerging from the depth.
 */
 
 var b1;
