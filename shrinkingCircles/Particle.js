@@ -4,13 +4,14 @@ function Particle(x, y, r, b) {
     this.o = 255;
     this.backupR = r;
     this.r = r;
+    this.h = 255;
     this.b = 0;
     this.loc = createVector(this.x, this.y);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
 
     this.show = function() {
-        fill(255, random(255), this.b, this.o);
+        fill(this.h, random(255), this.b, this.o);
         ellipse(this.loc.x, this.loc.y, this.r, this.r)
     };
 
